@@ -1,0 +1,54 @@
+li, ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list {
+    font-family: 'Montserrat', serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-link {
+    color: #000000;
+    margin-right: 10px;
+}
+
+.nav-link.active {
+    color: #1424da;
+}
+.form-group h3 {
+    display: flex;
+    justify-content: center;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 6px solid #aeaeae;
+    padding: 20px 40px;
+    width: 10%;
+}
+#result_multi {
+    font-size: 20px;
+    font-weight: 900;
+}
+#result_sum {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;
+}
+
