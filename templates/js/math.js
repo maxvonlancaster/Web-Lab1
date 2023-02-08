@@ -1,5 +1,8 @@
 function multi() {
     let num1, num2, result, result2;
+    if(isNaN(num1)){
+        console.log("hello world");
+    }
     num1 = document.getElementById('inp_1').value;
     num1 = parseInt(num1);
 
